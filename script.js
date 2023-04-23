@@ -168,7 +168,7 @@ function ConvertAndOutputResult(date1, date2) {
   }
 }
 
-// Функція виведення даних з localStorage 
+// Функція виведення даних з localStorage в колонки результатів
 
 function setResultsFromLocalStorage(item) {
   let arrLocalStorage;
@@ -289,6 +289,7 @@ function getDifference(event) {
 
   setResults();
 }
+
 
 
 // ці функції тому що в мене були проблеми зі стилями радіо-інпутів
